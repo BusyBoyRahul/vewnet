@@ -7,7 +7,7 @@ export default function Product(props) {
   return (
     <div>
 
-        <div className="containerz">
+        <div className="container">
         <Link to="/"><span className='btn btn-info text-light fs-5'><IoMdArrowRoundBack /> Back</span></Link>
 
         <div className="container-fluid d-lg-flex flex-wrap">
