@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Fjallraven - Eyeglass",
+        "price": 109.95,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "women",
+        "image": "https://cdn.eyemyeye.com/shared/images/Brands/Rayban-Eyeglasses/1.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Mens Casual Premium Slim Fit Eyeglass ",
+        "price": 22.3,
+        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched placket.",
+        "category": "women",
+        "image": "https://cdn.eyemyeye.com/shared/images/Brands/william-morris/william-morris.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "Mens Casual Premium Slim Fit Eyeglass",
+        "price": 22.3,
+        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched placket.",
+        "category": "men",
+        "image": "https://cdn.eyemyeye.com/shared/images/Brands/Carrera/carrera.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 4,
+        "title": "Mens Casual Premium Slim Fit Eyeglass",
+        "price": 22.3,
+        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched placket.",
+        "category": "men",
+        "image": "https://cdn.eyemyeye.com/shared/images/Brands/vogue/vouge-brands-eye.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    }
+]

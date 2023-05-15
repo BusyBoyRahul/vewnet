@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+li a{
+  text-decoration: none;
+}
+
+.description{
+    display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.courselw{
+  width: 49%;
+}
+
+@media screen and (max-width: 640px) {
+  .courselw{
+    width: 95%;
+  }
+}
+
+.card {
+  position: relative;
+  width: 90%;
+  height: 20.5em;
+  box-shadow: 0px 1px 13px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 120ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 0.5em;
+  padding-bottom: 10.4em;
+}
+
+.card::after {
+  content: "View Product >";
+  text-align: left;
+  padding-top: 0.90em;
+  padding-bottom: 1.25em;
+  padding-left: 1em;
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+  background: #00AC7C;
+  color: #fff;
+  height: 3em;
+  width: 100%;
+  transition: all 80ms;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0;
+}
+
+.card .title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  position: absolute;
+  left: 0.625em;
+  bottom: 5.875em;
+  font-weight: 700;
+  color: #000;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card .description{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  position: absolute;
+  left: 0.625em;
+  bottom: 3.875em;
+  font-weight: 200;
+  color: #373737;
+}
+
+.card .price {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.9em;
+  position: absolute;
+  left: 0.325em;
+  bottom: 0.225em;
+  color: #00AC7C;
+}
+
+.card:hover::after {
+  bottom: 0;
+  opacity: 1;
+}
+
+.card:active {
+  transform: scale(1);
+}
+
+
+
+.image {
+  background: rgb(241, 241, 241);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.brands{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.brand{
+  width: 22%;
+}
+
+@media screen and (max-width: 640px) {
+  .brand{
+    width: 38%;
+  }
+}
+
+.clor{
+ background-color: rgba(156, 252, 220, 0.218);
+ padding-bottom: 20px;
+}
+
+.stucks{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.stuck{
+  background-color: rgba(127, 255, 212, 0.319);
+  width: 22%;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  .stuck{
+    width: 38%;
+  }
+}
+
+
+.truster{
+  background-color: rgb(220, 214, 214);
+}
+
+.truster h5{
+  padding: 2px;
+}
+
+.truster .d-lg-flex{
+  width: 12%;
+}
+@media screen and (max-width: 640px) {
+  .truster{
+    text-align: center;
+  }
+  .truster .d-lg-flex{
+    width:unset;
+  }
+
+
+}
+
+.nn{
+  background-color: rgb(5, 7, 17);
+}
+
+.feed-form {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.feed-form input,.feed-form textarea{
+  height: 44px;
+  border-radius: 5px;
+  background: white;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  padding: 0 20px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #4B4B4B;
+}
+
+.feed-form textarea{
+  height: 100px;
+}
+
+.button_submit:hover, .feed-form input:hover {
+  transform: scale(1.009);
+  box-shadow: 0px 0px 3px 0px #212529;
+}
+
+.button_submit {
+  width: 100%;
+  height: 54px;
+  font-size: 24px;
+  color: white;
+  background: rgb(34, 0, 255);
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 640px) {
+.feed-form {
+  width: 95%;
+}
+}
