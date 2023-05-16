@@ -231,3 +231,27 @@ li a{
   width: 95%;
 }
 }
+
+.ppage{
+  
+  > div{
+    width: 50%;
+    padding: 5%;
+    > img{
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .ppage{
+  
+    > div{
+      width: 90%;
+      padding: 1%;
+      > img{
+        width: 100%;
+      }
+    }
+  }
+}

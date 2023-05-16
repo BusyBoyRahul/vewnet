@@ -26,6 +26,14 @@ if (window.innerWidth < 768) {
 
 
 export default function Eyeglass(props) {
+
+  const store = (img, title, description, price) => {
+    localStorage.setItem("img", img);
+    localStorage.setItem("title", title);
+    localStorage.setItem("description", description);
+    localStorage.setItem("price", price);
+  };
+
   return (
     <div>
       <h1 className='text-center pt-5 fs-2'><u>{props.title}</u></h1>
@@ -47,17 +55,7 @@ export default function Eyeglass(props) {
       {Trending.map((data) => {
         return (
           <SwiperSlide className='p-4'>
-        <Link
-                to={{
-                  pathname: "/product",
-                  state: {
-                    image: data.image,
-                    title: data.title,
-                    description: data.description,
-                    price: data.price,
-                  },
-                }}
-              > 
+        <Link to={"/product"}  onClick={() => store(data.image, data.title, data.description, data.price)}> 
                 <div className="card m-3">
           <div className="image"><img className='w-100' src={data.image} alt="" /></div>
           <span className="title text-start">{data.title}</span>
